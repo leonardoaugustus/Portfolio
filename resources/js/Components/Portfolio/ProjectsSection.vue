@@ -1,9 +1,10 @@
 <template>
-  <section class="p-4 py-20 bg-gray-200 dark:bg-gray-1000">
+  <section class="p-4 py-20 bg-[#eceefe] dark:bg-gray-900 dark:bg-gradient-to-b dark:from-black dark:to-custom-purple">
     <div class="w-full max-w-7xl mx-auto">
       <!-- Título e Botões -->
       <div class="pb-8 flex justify-between items-center gap-8">
-        <h2 class="text-4xl lg:text-5xl pb-4">Our collections</h2>
+        
+        <h1 class="mt-2 tracking-tight text-pretty text-gray-900 dark:text-white text-5xl lg:text-5xl font-mono font-black"> My projects </h1>
         <!-- Botões (visíveis em telas md+) -->
         <div class="hidden md:flex gap-6 text-2xl">
           <a href="#">

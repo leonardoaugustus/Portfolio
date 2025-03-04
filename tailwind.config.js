@@ -29,6 +29,7 @@ export default {
                     800: '#5B21B6',
                     900: '#4C1D95',
                 },
+                custom_purple: '#231e47',
             },
         },
     },
