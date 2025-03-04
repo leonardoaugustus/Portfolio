@@ -5,12 +5,21 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/', function () {
+// Original welcome page
+Route::get('/welcome', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
+    ]);
+});
+
+// Nossa nova página de portfólio como rota principal
+Route::get('/', function () {
+    return Inertia::render('PortfolioHome', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
     ]);
 });
 
