@@ -1,5 +1,5 @@
 <template>
-  <div class="relative isolate overflow-hidden bg-white dark:bg-black px-6 py-10 sm:py-32 lg:py-10 lg:overflow-visible lg:px-0 border-none">
+  <div class="relative isolate overflow-hidden bg-gradient-to-t from-gray-100 to-90%  to-gray-100 bg-white dark:bg-gray-900 dark:bg-gradient-to-t dark:from-black px-6 py-10 sm:py-32 lg:py-10 lg:overflow-visible lg:px-0 border-none">
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
       <div

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 dark:bg-gray-900 py-16">
+  <section class="py-16 bg-gradient-to-b  from-gray-200 to-white-100  dark:bg-gray-900 dark:bg-gradient-to-t dark:from-black">
     <div class="mx-auto max-w-4xl px-6">
 
       <!-- Heading and Subtext -->

@@ -18,7 +18,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Tailwind UI - Official Tailwind CSS Components & Templates" />
+    <Head title="Leonardo Augusto - Engineer & Developer" />
 
     <div class="min-h-screen ">
         <Navigation :canLogin="canLogin" :canRegister="canRegister" />
@@ -26,7 +26,7 @@ defineProps({
         <main id="main" role="main">
             <HeroSection />
             <ProjectsSection />
-            <BlogSection />
+            <!-- <BlogSection /> -->
             <ContactSection />
         </main>
 
