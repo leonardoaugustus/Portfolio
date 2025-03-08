@@ -9,4 +9,7 @@
 
 ## About
 
-Aqui, você conhecerá a trajetória profissional de Leonardo Augusto.
+Olá,
+
+Aqui você conhecerá a trajetória profissional de Leonardo Augusto.
+
