@@ -14,6 +14,14 @@ defineProps({
     canRegister: {
         type: Boolean,
     },
+    heroDescription: {
+        type: String,
+        required: true,
+    },
+    currentLocale: {
+        type: String,
+        required: true,
+    },
 });
 </script>
 
@@ -21,10 +29,10 @@ defineProps({
     <Head title="Leonardo Augusto - Engineer & Developer" />
 
     <div class="min-h-screen ">
-        <Navigation :canLogin="canLogin" :canRegister="canRegister" />
+        <Navigation :canLogin="canLogin" :canRegister="canRegister" :currentLocale="currentLocale" />
         
         <main id="main" role="main">
-            <HeroSection />
+            <HeroSection :heroDescription="heroDescription" />
             <ProjectsSection />
             <!-- <BlogSection /> -->
             <ContactSection />

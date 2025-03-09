@@ -14,8 +14,7 @@
               <span class="to-blue-400">Augusto</span>
             </h1>
             <p class="mt-6 text-xl/8 text-gray-700 dark:text-gray-300 font-mono">
-              I am a self-taught web Developer from the USA. Currently, I am a freelancer and collaborating with
-              small companies and agencies. I deal with UI design / Front-end development and Bootstrap Development.
+              {{ props.heroDescription }}
             </p>
             <a href="https://wa.me/141552388867"
               class="mt-6 bg-gray-900 dark:bg-white text-white dark:text-gray-900 px-3 py-3 rounded-md font-mono inline-flex items-center gap-2 hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-300 w-auto">
@@ -55,6 +54,15 @@
 </template>
 
 <script setup>
+
+const props = defineProps({
+  heroDescription: {
+    type: String,
+    required: true,
+  },
+});
+
 import { ArrowRightIcon } from '@heroicons/vue/20/solid'
 import SkillsSection from '@/Components/SkillsSection.vue';
+
 </script>
