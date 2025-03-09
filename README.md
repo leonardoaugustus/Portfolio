@@ -9,7 +9,7 @@
 
 ## About The Project
 
-Olá,
+Olá, seja bem vindo
 
 Aqui você conhecerá a trajetória profissional de Leonardo Augusto.
 
